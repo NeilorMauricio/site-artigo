@@ -29,10 +29,11 @@
    
 
 body {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    background-image: url('imagens/fundo.jpg');
     font-family: var(--fonte-padrao);
     
 }
+
 
 a.externo::after {
     content: '\1f517';
