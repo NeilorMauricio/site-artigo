@@ -29,7 +29,13 @@
    
 
 body {
+    height: 100vh;
+    background-color: var(--cor2);
     background-image: url('imagens/fundo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: var(--fonte-padrao);
     
 }
@@ -93,6 +99,7 @@ nav > a:hover{
 }
 
 main {
+  
    background-color: white; 
    min-width: 100px;
    max-width: 1000px;
