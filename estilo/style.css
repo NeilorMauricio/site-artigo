@@ -116,8 +116,9 @@ main  h1 {
     color: black;
     font-family: var(--fonte-roboto);
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     background-image: linear-gradient(to right, var(--cor0), transparent );
+    
 }
 
 main h2 {
