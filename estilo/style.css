@@ -3,11 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
-@font-face{
-    font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&display=swap');
+
+
    
 
 :root {
@@ -19,7 +17,7 @@
     --cor5: #1B2A59;
    
      --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-android: 'Android' ,cursive;
+    --fonte-roboto: 'Roboto' ,cursive;
     --fonte-destaque: 'Bebas Neue' ,cursive;
     --fonte-h3: 'Share Tech' ,cursive; 
 }
@@ -107,7 +105,7 @@ main {
 
 main  h1 {
     color: var(--cor5);
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-roboto);
     font-weight: normal;
     font-size: 1.8em;
     
@@ -115,7 +113,7 @@ main  h1 {
 
 main h2 {
     color: var(--cor5);
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-roboto);
     font-weight: normal;
     text-align: left;
     font-size: 1.3em;
