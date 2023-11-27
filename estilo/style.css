@@ -113,7 +113,7 @@ main {
 }
 
 main  h1 {
-    color: var(--cor5);
+    color: black;
     font-family: var(--fonte-roboto);
     font-weight: normal;
     font-size: 2em;
@@ -121,7 +121,7 @@ main  h1 {
 }
 
 main h2 {
-    color: var(--cor5);
+    color: black;
     font-family: var(--fonte-roboto);
     font-weight: normal;
     text-align: left;
