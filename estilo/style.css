@@ -180,7 +180,7 @@ main img.pequena {
 }
 
 div.video{
-    background-color: var(--cor5);
+    background-color: #2646a69f;
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 58%;
