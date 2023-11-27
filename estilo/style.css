@@ -107,8 +107,8 @@ main  h1 {
     color: var(--cor5);
     font-family: var(--fonte-roboto);
     font-weight: normal;
-    font-size: 1.8em;
-    
+    font-size: 2em;
+    background-image: linear-gradient(to right, var(--cor0), transparent );
 }
 
 main h2 {
@@ -116,8 +116,8 @@ main h2 {
     font-family: var(--fonte-roboto);
     font-weight: normal;
     text-align: left;
-    font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor2), transparent );
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor0), transparent );
     text-indent: 8px;
 }
 
@@ -211,7 +211,7 @@ aside > ul{
 }
 
 footer {
-    background-color:var(--cor0) ;
+    background-color:var(--cor5) ;
     color: white;
     text-align: center;
     font-size: 0.8em;
