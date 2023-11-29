@@ -113,22 +113,24 @@ main {
 }
 
 main  h1 {
-    color: black;
+    color: whitesmoke;
     font-family: var(--fonte-roboto);
     font-weight: normal;
     font-size: 1.5em;
-    background-image: linear-gradient(to right, var(--cor0), transparent );
+    background-image: linear-gradient(to right, rgba(128, 128, 238, 0.452), transparent );
+  
     
 }
 
 main h2 {
-    color: black;
+    color: whitesmoke;
     font-family: var(--fonte-roboto);
     font-weight: normal;
     text-align: left;
     font-size: 1.5em;
-    background-image: linear-gradient(to right, var(--cor0), transparent );
+    background-image: linear-gradient(to right, rgba(128, 128, 238, 0.452), transparent );
     text-indent: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
 }
 
 main h3 {
