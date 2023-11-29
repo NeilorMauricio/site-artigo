@@ -118,7 +118,7 @@ main  h1 {
     font-weight: normal;
     font-size: 1.5em;
     background-image: linear-gradient(to right, rgba(128, 128, 238, 0.452), transparent );
-  
+    border-radius: 5px;
     
 }
 
@@ -131,6 +131,7 @@ main h2 {
     background-image: linear-gradient(to right, rgba(128, 128, 238, 0.452), transparent );
     text-indent: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+    border-radius: 5px;
 }
 
 main h3 {
